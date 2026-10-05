@@ -1,0 +1,9 @@
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+customtkinter>=5.2.0
+requests>=2.31.0
+psutil>=5.9.5
+Pillow>=10.0.0
+google-genai>=0.1.1
+pycaw>=2.0.1; platform_system == "Windows"
+comtypes; platform_system == "Windows"
