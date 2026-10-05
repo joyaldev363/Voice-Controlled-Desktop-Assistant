@@ -44,15 +44,21 @@ def run_cli():
         speech_engine.stop()
 
 def run_gui():
-    app = AssistantGUI()
-    app.mainloop()
+    try:
+        app = AssistantGUI()
+        app.mainloop()
+    except KeyboardInterrupt:
+        print("\nApplication closed cleanly.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Voice-Controlled Desktop Assistant")
     parser.add_argument("--cli", action="store_true", help="Run in Command Line Interface (CLI) mode instead of GUI")
     args = parser.parse_args()
 
-    if args.cli:
-        run_cli()
-    else:
-        run_gui()
+    try:
+        if args.cli:
+            run_cli()
+        else:
+            run_gui()
+    except KeyboardInterrupt:
+        print("\nAssistant stopped by user.")
