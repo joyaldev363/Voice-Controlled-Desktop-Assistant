@@ -111,18 +111,5 @@ python main.py --cli
 | **AI Q&A** | *"Why is the sky blue?"*, *"Tell me a fun fact"* | Answers using Gemini AI or fallback |
 | **Exit** | *"Goodbye"*, *"Exit"*, *"Stop listening"* | Closes the assistant application |
 
----
-
-## Optional Google Gemini AI Configuration
-
-To enable smart conversational AI answers:
-1. Obtain an API Key from [Google AI Studio](https://aistudio.google.com/).
-2. Set the environment variable in your terminal:
-   ```bash
-   # Windows PowerShell
-   $env:GEMINI_API_KEY="your_api_key_here"
-   ```
-   Or paste your key into `config.py`:
-   ```python
    GEMINI_API_KEY = "your_api_key_here"
    ```
