@@ -110,6 +110,3 @@ python main.py --cli
 | **Workstation** | *"Lock computer"*, *"Lock screen"* | Locks Windows workstation |
 | **AI Q&A** | *"Why is the sky blue?"*, *"Tell me a fun fact"* | Answers using Gemini AI or fallback |
 | **Exit** | *"Goodbye"*, *"Exit"*, *"Stop listening"* | Closes the assistant application |
-
-   GEMINI_API_KEY = "your_api_key_here"
-   ```
