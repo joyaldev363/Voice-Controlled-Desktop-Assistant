@@ -60,8 +60,10 @@ cd "e:\Python\Voice-Controlled Desktop Assistant"
 python -m venv venv
 
 # Activate virtual environment
+
 # Windows PowerShell:
 .\venv\Scripts\Activate.ps1
+
 # Windows Command Prompt:
 # .\venv\Scripts\activate.bat
 ```
